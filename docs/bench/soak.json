@@ -1,0 +1,37 @@
+{
+  "section": "soak",
+  "env": {
+    "python": "3.10.12",
+    "machine": "aarch64",
+    "cpus": 4,
+    "os": "Linux-6.8.0-138-generic-aarch64-with-glibc2.35"
+  },
+  "result": {
+    "bids": 814,
+    "ticks": 3636,
+    "revenue_micro": 30571146,
+    "charged_bids": 507,
+    "wallet_lost_requests": 801,
+    "wallet_lost_responses": 769,
+    "submit_201": 814,
+    "warned": 182,
+    "preempted": 300,
+    "completed": 70,
+    "settle_retried": 1289,
+    "submit_422": 206,
+    "submit_503": 200,
+    "capacity_changes": 306,
+    "replayed": 293,
+    "dup_delivered": 704,
+    "raise_503": 72,
+    "raise_200": 186,
+    "cancel_200": 147,
+    "raise_409": 296,
+    "cancel_409": 111,
+    "raise_402": 5,
+    "seeds": 12,
+    "rounds_per_seed": 100,
+    "violations": 0,
+    "wall_s": 29.9
+  }
+}

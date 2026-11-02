@@ -1,0 +1,23 @@
+{
+  "section": "tick",
+  "env": {
+    "python": "3.10.12",
+    "machine": "aarch64",
+    "cpus": 4,
+    "os": "Linux-6.8.0-138-generic-aarch64-with-glibc2.35"
+  },
+  "result": {
+    "100": {
+      "first_tick_ms": 5.7,
+      "steady_median_ms": 2.0
+    },
+    "1000": {
+      "first_tick_ms": 10.2,
+      "steady_median_ms": 7.7
+    },
+    "5000": {
+      "first_tick_ms": 43.6,
+      "steady_median_ms": 39.5
+    }
+  }
+}

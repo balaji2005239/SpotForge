@@ -1,0 +1,31 @@
+{
+  "section": "clearing",
+  "env": {
+    "python": "3.10.12",
+    "machine": "aarch64",
+    "cpus": 4,
+    "os": "Linux-6.8.0-138-generic-aarch64-with-glibc2.35"
+  },
+  "result": {
+    "100": {
+      "median_ms": 0.13,
+      "filled": 25,
+      "capacity": 25
+    },
+    "1000": {
+      "median_ms": 0.87,
+      "filled": 250,
+      "capacity": 250
+    },
+    "10000": {
+      "median_ms": 6.04,
+      "filled": 2500,
+      "capacity": 2500
+    },
+    "50000": {
+      "median_ms": 26.16,
+      "filled": 12500,
+      "capacity": 12500
+    }
+  }
+}

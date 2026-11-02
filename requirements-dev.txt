@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=2.0
+psycopg[binary]
+pydantic>=2
+pydantic-settings
+httpx
+pytest
+hypothesis
+alembic
+ruff
+aiokafka
+celery
+redis
+pyjwt
+fakeredis

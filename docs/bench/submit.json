@@ -1,0 +1,55 @@
+{
+  "section": "submit",
+  "env": {
+    "python": "3.10.12",
+    "machine": "aarch64",
+    "cpus": 4,
+    "os": "Linux-6.8.0-138-generic-aarch64-with-glibc2.35"
+  },
+  "result": {
+    "submit_c1": {
+      "requests": 400,
+      "concurrency": 1,
+      "req_per_s": 156.3,
+      "p50_ms": 5.3,
+      "p95_ms": 10.6,
+      "p99_ms": 17.3,
+      "status": {
+        "201": 400
+      }
+    },
+    "submit_c8": {
+      "requests": 1200,
+      "concurrency": 8,
+      "req_per_s": 196.3,
+      "p50_ms": 13.4,
+      "p95_ms": 140.6,
+      "p99_ms": 506.7,
+      "status": {
+        "201": 1200
+      }
+    },
+    "submit_c32": {
+      "requests": 1200,
+      "concurrency": 32,
+      "req_per_s": 192.4,
+      "p50_ms": 54.5,
+      "p95_ms": 797.6,
+      "p99_ms": 1563.5,
+      "status": {
+        "201": 1200
+      }
+    },
+    "list_bids_c32": {
+      "requests": 600,
+      "concurrency": 32,
+      "req_per_s": 689.9,
+      "p50_ms": 17.9,
+      "p95_ms": 71.7,
+      "p99_ms": 643.7,
+      "status": {
+        "200": 600
+      }
+    }
+  }
+}
